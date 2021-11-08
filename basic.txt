@@ -1,0 +1,29 @@
+1.Root
+---------
+circle_app
+  []resources
+	[]view
+  	     []layout
+		frontHeader.blade.php
+		frontFooter.blade.php
+	     []front
+		index.blade.php
+                ... all pages
+
+
+2.linking
+-----------
+{{asset('your root file')}}
+Example:
+{{asset('front/img/clock.png')}}
+
+Note:{{}} called blade
+
+3.Main html file location:
+[]domainName.com
+    []ProjectName
+	[]front
+	     []css
+	     []img
+             []js			
+     
